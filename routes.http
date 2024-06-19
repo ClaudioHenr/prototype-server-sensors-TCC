@@ -1,0 +1,11 @@
+GET http://localhost:3000/ HTTP/1.1
+ 
+###
+
+POST http://localhost:3000/create
+Content-Type: application/json
+
+{
+  "realizado": "16/06/2024", 
+  "x_axis": 11111
+}
